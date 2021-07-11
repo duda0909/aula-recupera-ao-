@@ -1,0 +1,27 @@
+using System;
+
+
+namespace aularecuperaçao 
+
+public class Professor : Pessoa
+
+    public string _email;
+    public double Email;
+      {
+        get
+
+        return this._email;
+      }
+
+public Professor(string Nome, string Email) : base(Nome)
+{
+    this.Professor = professores
+     }
+public override void imprimir()
+{
+    base.imprimir();
+    Console.writeLine("Email:/t{0}", this.email);
+    Console.WriteLine("professores: {0}, {1} e {2}", this.professor1, professor2, professor3);
+}
+}
+  
